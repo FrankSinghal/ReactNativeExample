@@ -11,7 +11,7 @@ import Abc from './Abc';
 import ComponentTI from './app/component/textinput/ComponentTI';
 import ListViewExmp from './app/component/listview/ListViewExmp';
 import ListViewExmp2 from './app/component/listview/ListViewExmp2';
-import NavigatorExmp from './app/component/navigator/NavigatorExmp';
+{/*import NavigatorExmp from './app/component/navigator/NavigatorExmp';*/}
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -44,10 +44,10 @@ export default class App extends Component<Props> {
 
       {/* List View example */}
       {/*<ListViewExmp/>*/}
-      {/*<ListViewExmp2/>*/}
+      <ListViewExmp2/>
 
       {/*Navigator Example*/}
-      <NavigatorExmp />
+      {/*<NavigatorExmp />*/}
     </View>);
   }
 }
